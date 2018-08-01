@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/main/main",
+    "pages/watermelonVideo/watermelonVideo",
+    "pages/weTop/weTop",
+    "pages/litterVideo/litterVideo"
+  ],
+  "tabBar":{
+    "color": "#000000",
+    "selectedColor": "#ff0000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list":[
+      {
+        "pagePath":"pages/main/main",
+        "text":"首页",
+        "iconPath":"imgs/tabbar/mainTabbar.png",
+        "selectedIconPath":"imgs/tabbar/mainSelectedTabbar.png"
+      },
+      {
+        "pagePath": "pages/watermelonVideo/watermelonVideo",
+        "text": "西瓜视频",
+        "iconPath": "imgs/tabbar/watermelonVideoTabbar.png",
+        "selectedIconPath": "imgs/tabbar/watermelonVideoSelectedTabbar.png"
+      },
+      {
+        "pagePath": "pages/weTop/weTop",
+        "text": "微头条",
+        "iconPath": "imgs/tabbar/weTopTabbar.png",
+        "selectedIconPath": "imgs/tabbar/weTopSelectedTabbar.png"
+      },
+      {
+        "pagePath": "pages/litterVideo/litterVideo",
+        "text": "小视频",
+        "iconPath": "imgs/tabbar/litterVideoTabbar.png",
+        "selectedIconPath": "imgs/tabbar/litterVideoSelectedTabbar.png"
+      }
+    ]
+  }
+  ,
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}
